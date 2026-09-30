@@ -52,13 +52,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import gindexOfAlmostSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gindex-of-almost-same-value@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-gindex-of-almost-same-value/tags). For example,
+
+```javascript
 import gindexOfAlmostSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gindex-of-almost-same-value@v0.0.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gindex-of-almost-same-value@v0.0.0-deno/mod.js';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gindex-of-almost-same-value@deno/mod.js';
 ```
 
 #### gindexOfAlmostSameValue( N, searchElement, maxULP, x, strideX )
@@ -170,7 +175,7 @@ var idx = gindexOfAlmostSameValue.ndarray( 3, 3.0, 1, x, 1, x.length-3 );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import gindexOfAlmostSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gindex-of-almost-same-value@v0.0.0-deno/mod.js';
+import gindexOfAlmostSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gindex-of-almost-same-value@deno/mod.js';
 
 var x = discreteUniform( 10, -100, 100, {
     'dtype': 'generic'
