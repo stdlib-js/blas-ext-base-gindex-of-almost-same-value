@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-05)
+## Unreleased (2026-09-30)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`67c1633`](https://github.com/stdlib-js/stdlib/commit/67c1633c999488e1807bb2aa77183662c6eb387b) - **chore:** fix inconsistencies across packages in `blas/ext/base*` [(#15146)](https://github.com/stdlib-js/stdlib/pull/15146) _(by Muhammad Haris, Athan Reines)_
 -   [`39365ed`](https://github.com/stdlib-js/stdlib/commit/39365ed17115198fef09f58dc906f9ddc67dca21) - **docs:** update copy _(by Athan Reines)_
 -   [`353f039`](https://github.com/stdlib-js/stdlib/commit/353f039bb50f3d56e850ec6e81d8ce08ec01702f) - **feat:** add `blas/ext/base/gindex-of-almost-same-value` [(#14418)](https://github.com/stdlib-js/stdlib/pull/14418) _(by Muhammad Haris, Athan Reines)_
 
